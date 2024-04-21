@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sikwens | Home</title>
+	<link rel="icon" href="assets/Favicon.png" type="image/png" >
+    <link rel="stylesheet" href="sikwens_styles.css" />
+    <link rel="stylesheet" href="sikwens_media-queries.css" />
+  </head>
+  <body>
+<header class="fixed-header">
+    <nav id="desktop-nav">
+            <a href="sikwens.html" class="logo">
+	    <div class="logo-text">
+            <div class="letter">S</div>
+            <div class="letter">I</div>
+            <div class="letter">K</div>
+            <div class="letter">W</div>
+            <div class="letter">E</div>
+            <div class="letter">N</div>
+            <div class="letter">S</div>
+	</div>
+	</a>
+        <ul class="nav-links">
+          <li><a href="sikwens.html">Home</a></li>
+          <li><a href="subpages/Play.html">Play</a></li>
+          <li><a href="subpages/Blog.html">Blog</a></li>
+          <li><a href="subpages/login.html">Login</a></li>
+          <li class = "Loggedin" style="display: none;"><a href="subpages/Profile.html">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+            <a href="sikwens.html" class="logo">
+	    <div class="logo-text">
+            <div class="letter">S</div>
+            <div class="letter">I</div>
+            <div class="letter">K</div>
+            <div class="letter">W</div>
+            <div class="letter">E</div>
+            <div class="letter">N</div>
+            <div class="letter">S</div>
+      </div>
+	</a>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+		<li><a href="sikwens.html" onclick="toggleMenu()" style="color: green;" onmouseover="this.style.color='#FFBF00'" onmouseout="this.style.color='green'">Home</a></li>
+		<li><a href="subpages/Play.html" onclick="toggleMenu()" style="color: green;" onmouseover="this.style.color='#FFBF00'" onmouseout="this.style.color='green'">Play</a></li>
+		<li><a href="subpages/Blog.html" onclick="toggleMenu()" style="color: green;" onmouseover="this.style.color='#FFBF00'" onmouseout="this.style.color='green'">Blog</a></li>
+		<li><a href="subpages/Login.html" onclick="toggleMenu()" style="color: green;" onmouseover="this.style.color='#FFBF00'" onmouseout="this.style.color='green'">Login</a></li>
+		<li class="Logedin"style="display: none;"><a href="subpages/Profile.html" onclick="toggleMenu()" style="color: green;" onmouseover="this.style.color='#FFBF00'" onmouseout="this.style.color='green'">Profile</a></li>
+	</div>
+      </div>
+    </nav>
+</Header>
+
+<main>
+	<section class="home">
+		<div class="home__pic-container">
+ 			<div class="home__pic-placeholder">
+				<div class="row">
+    					<div class="square">73</div>
+    					<div class="square">79</div>
+    					<div class="square">69</div>
+    					<div class="square">59</div>
+    					<div class="square">69</div>
+    					<div class="square">31</div>
+    					<div class="square">18</div>
+    					<div class="square">84</div>
+    					<div class="square">74</div>
+    					<div class="square">64</div>
+  				</div>
+				<div class="row">
+    					
+    					<div class="square">73</div>
+    					<div class="square">79</div>
+    					<div class="square">69</div>
+    					<div class="square">59</div>
+    					<div class="square">49</div>
+    					<div class="square">31</div>
+    					<div class="square">74</div>
+    					<div class="square">63</div>
+    					<div class="square">74</div>
+    					<div class="square">64</div>
+  				</div>
+				<div class="row">
+    					<div class="square">73</div>
+    					<div class="square">79</div>
+    					<div class="square">69</div>
+    					<div class="square">59</div>
+    					<div class="square">65</div>
+    					<div class="square">31</div>
+    					<div class="square">62</div>
+    					<div class="square">56</div>
+    					<div class="square">74</div>
+    					<div class="square">64</div>
+  				</div>
+				<div class="row">
+    					<div class="square">73</div>
+    					<div class="square">79</div>
+    					<div class="square">69</div>
+    					<div class="square">59</div>
+    					<div class="square"></div>
+    					<div class="square">31</div>
+    					<div class="square">62</div>
+    					<div class="square"></div>
+    					<div class="square">74</div>
+    					<div class="square">64</div>
+				</div>
+				<div class="row">
+    					<div class="square">73</div>
+    					<div class="square">79</div>
+    					<div class="square">69</div>
+    					<div class="square">59</div>
+    					<div class="square"></div>
+    					<div class="square">31</div>
+    					<div class="square">62</div>
+    					<div class="square"></div>
+    					<div class="square">74</div>
+    					<div class="square">64</div>
+				</div>
+			</div>
+			<div class = "home-pic-animation-container">
+				<dotlottie-player src="https://lottie.host/95cfedeb-fae3-41d9-9c0a-73c1960279b5/XWcJcMoxsI.json"  background="transparent" speed="2" class= "Uniques" style="width: 33.3%; height: 100%;" loop autoplay>
+				</dotlottie-player>
+				<dotlottie-player src="https://lottie.host/95cfedeb-fae3-41d9-9c0a-73c1960279b5/XWcJcMoxsI.json"  background="transparent" speed="2" class= "Uniques" style="width: 33.3%; height: 100%;" loop autoplay>
+				</dotlottie-player>
+				<dotlottie-player src="https://lottie.host/95cfedeb-fae3-41d9-9c0a-73c1960279b5/XWcJcMoxsI.json"  background="transparent" speed="2" class= "Uniques" style="width: 33.3%; height: 100%;" loop autoplay>
+				</dotlottie-player>
+			</div>
+		</div>
+		<div class="home__text-container">
+			<div class="home__text-placeholder">
+				<p class="home__text__p1">Hi, Welcome To</p>
+        			<h1 class="home__text__main">SIKWENS</h1>
+        			<p class="home__text__p2">Here, Maths Meets Fun!</p>
+			</div>
+			<div class="btn-container">
+          			<button class="btn btn-color-1" onclick="window.open('./subpages/Play.html')">
+          				Play
+				</button>
+				<button class="btn btn-color-2" onclick="window.open('./subpages/Blog.html')">
+					Visit the Blog
+				</button>
+			</div>
+		</div>
+	</section>
+
+<section class="about">
+<div class="about-container">
+	<div class="about-text-container">
+		<div class="about-title-container">
+		<h1 class="about-title">About SIKWENS</h1>
+		</div>
+		<div class="about-details-containers">
+			<div class="about-details-container-main">
+				<p class="about-details-main"> <strong> Sikwens </strong> is home to a unique game that'll put your brain to the test, and a blog filled with fascinating stories, facts, and insights to broaden your horizons.
+				</p><p class="about-details-main"> Each day will bring you a new and exciting trivia topic that'll challenge your mind and keep you coming back for more!, so whether you're a math Nerd, puzzle aficionado, or simply seeking an engaging and rewarding experience on the web, Sikwens promises an adventure like no other. Join the SIKWENS community today and let's explore, learn, and play together. </p>
+				<p class="sm" ><a href="#footersm" >
+						<strong>Follow SIKWENS on social media to learn more!</strong>
+						</a>
+				</p>
+			</div>
+			<div class="about-details-container-sub">
+				<div class=about-details-container-sub_1>
+					<div class="game-icon-container">
+    					<object data="Assets/game_icon.png" width="60%" height="60%"> </object>
+    				</div>
+					<ul>
+                         <li class = "About-blog-list-title"> <h3>The Game</h3></li>
+                        <li class = "About-blog-list"> <p1>QuickPlay Mode </p1></li>
+                        <li class = "About-blog-list"> <p1>Daily SIKWENS Challenge </p1></li>
+                        <li class = "About-blog-list"> <p1>Do Maths, Nerd Out in Peace!
+							</p1></li>
+                        <li class = "About-blog-list"> <p1><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Play SIKWENS; Solve, Enjoy, Repeat!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Play SIKWENS; Solve, Enjoy, Repeat!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							</p1></li>
+                    </ul>   
+                </div>
+				<div class=about-details-container-sub_2>
+					<div class="blog-icon-container">
+    					<object data="Assets/blog.jpg" width="60%" height="60%" style="border: .2rem solid black; box-sizing: border-box; border-radius: .6rem;"> </object>
+    				</div>
+					<ul>
+                        <li class = "About-blog-list-title"> <h3>The Blog</h3></li>
+                        <li class = "About-blog-list"> <p1>Daily Blog Posts </p1></li>
+                        <li class = "About-blog-list"> <p1>Weekly Video Uploads </p1></li>
+                        <li class = "About-blog-list"> <p1>The Stories of the Empty Boxes</p1></li>
+                        <li class = "About-blog-list"> <p1><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pop Culture, Science, Sports, Trivia; Its The Everything Blog!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pop Culture, Science, Sports, Trivia; Its The Everything Blog!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						</p1>
+						</li>
+                    </ul>   
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+</main>
+
+<footer id="footersm">
+		<div class="footer-text">
+			<p33>Copyright &#169; 2024 Sikwens. All Rights Reserved. <br>No part of this site may be reproduced without permission.</p>
+		</div>
+		<div class="social-media-icons">
+			<div class="social-media-icons-upper-container">
+				<a href="https://www.x.com/sikwens_" class="social-media-icons-container"alt="X (Twitter)">
+                    <?xml version="1.0" ?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="100%" height="100%" viewBox="0 0 24 24" style=" fill:green;stroke:green;enable-background:new 0 0 24 24;" xml:space="preserve"><path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"/></svg>
+    				</a>
+        			<a href="https://www.youtube.com/channel/UC0LHjctMOQ_bySQmOKz4GXw" class="social-media-icons-container">
+          				<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill:green;clip-rule:evenodd;stroke:green;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M501.303,132.765c-5.887,-22.03 -23.235,-39.377 -45.265,-45.265c-39.932,-10.7 -200.038,-10.7 -200.038,-10.7c0,0 -160.107,0 -200.039,10.7c-22.026,5.888 -39.377,23.235 -45.264,45.265c-10.697,39.928 -10.697,123.238 -10.697,123.238c0,0 0,83.308 10.697,123.232c5.887,22.03 23.238,39.382 45.264,45.269c39.932,10.696 200.039,10.696 200.039,10.696c0,0 160.106,0 200.038,-10.696c22.03,-5.887 39.378,-23.239 45.265,-45.269c10.696,-39.924 10.696,-123.232 10.696,-123.232c0,0 0,-83.31 -10.696,-123.238Zm-296.506,200.039l0,-153.603l133.019,76.802l-133.019,76.801Z" style="fill:green;"/></svg>
+        			</a>
+				<a href="https://whatsapp.com/channel/0029VaV2jPs545utmYFe0G2v" class="social-media-icons-container">
+    					<?xml version="1.0" ?><svg id="Layer_1" style="width:100%; height:100%; enable-background:new 0 0 100 100; fill:green; stroke:green;" version="1.1" viewBox="0 0 100 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M50,4L50,4C24.6,4,4,24.6,4,50c0,9.6,2.9,18.7,8.4,26.5l-8.2,18c-0.2,0.4-0.1,0.8,0.2,1.1c0.3,0.3,0.7,0.4,1.1,0.3   l19.7-7.2c7.4,4.8,16,7.3,24.8,7.3c0,0,0.1,0,0.1,0c25.4,0,46-20.6,46-46S75.4,4,50,4z M75.6,67.7c-0.3,0.8-1,1.7-1.4,2.4   c-0.9,1.2-2,2.4-3,3.2c-0.2,0.2-0.4,0.3-0.6,0.5c-0.2,0.1-0.3,0.2-0.5,0.3c-0.8,0.6-1.6,1-2.3,1.2c-0.5,0.2-1.1,0.3-1.7,0.3   c-0.2,0-0.4,0-0.5,0c-1,0-1.6-0.2-3-0.7c-1.1-0.5-2.3-1-3.6-1.5l-0.3-0.2c-1.1-0.5-2.2-1.1-3.3-1.6L55,71.3   c-1.1-0.6-2.1-1.2-3.1-1.8l-0.2-0.2c-6.9-4.3-12.7-9.5-17.7-16c-0.5-0.6-0.9-1.2-1.4-1.8c-0.2-0.3-0.4-0.6-0.6-0.9l-0.6-0.9   c-0.4-0.6-0.7-1.1-1.1-1.7c0,0-0.1-0.1-0.1-0.1c-0.3-0.6-0.7-1.1-1-1.7c0,0-0.1-0.1-0.1-0.2c-1.6-2.8-3-5.7-4-8.5   c-1.1-3-1.4-4.9-0.2-7c0.5-0.9,2.4-2.7,3.7-3.6c2.3-1.7,3.3-2.3,4.3-2.5c0.7-0.1,1.8-0.1,2.6,0.2c0.4,0.1,0.9,0.4,1.2,0.6   c1.9,1.2,6.3,6.9,7.7,9.6c1,1.8,1.2,3.2,0.9,4.3c-0.3,1.2-1,1.9-3,3.4c-0.4,0.4-0.9,0.7-1.2,1c-0.1,0.1-0.1,0.1-0.2,0.2   c0,0-0.1,0.1-0.1,0.1c-0.2,0.2-0.3,0.8-0.3,1.2c0,1,0.7,3.3,1.9,5.1c0.9,1.4,2.4,3.2,4,4.6c1.8,1.6,3.4,2.7,5.2,3.6   c2.1,1,3.4,1.3,4.1,1c0,0,0,0,0,0c0.1-0.1,0.3-0.1,0.4-0.2c0.2-0.2,0.6-0.7,1.3-1.5c1-1.3,1.5-1.8,2.3-2.2c0.2-0.1,0.5-0.2,0.7-0.3   c1.4-0.5,2.9-0.4,4.3,0.4c1,0.5,3,1.7,4.3,2.6c1.6,1.1,5.4,4.1,6,4.8c0.6,0.7,1,1.6,1,2.6C76.1,66.1,75.9,66.9,75.6,67.7z"/><polygon points="31.1,47.5 31.1,47.5 31.1,47.5  "/></g></svg>
+    				</a>
+        			<a href="https://www.Instagram.com/sikwens_" class="social-media-icons-container" alt="Instagram">
+          			<svg data-name="Layer 1" width="100%" Stroke="green" height="100%" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M40.73 10.4H23.27A12.88 12.88 0 0 0 10.4 23.27v17.46A12.88 12.88 0 0 0 23.27 53.6h17.46A12.88 12.88 0 0 0 53.6 40.73V23.27A12.88 12.88 0 0 0 40.73 10.4Z" fill="Green" class="fill-09816c"></path><circle cx="32" cy="32" r="9.54" fill="green" class="fill-4fbe9f"></circle><path d="M41.7 8H22.3A14.31 14.31 0 0 0 8 22.3v19.4A14.31 14.31 0 0 0 22.3 56h19.4A14.31 14.31 0 0 0 56 41.7V22.3A14.31 14.31 0 0 0 41.7 8Zm9.47 33.7a9.47 9.47 0 0 1-9.47 9.47H22.3a9.47 9.47 0 0 1-9.47-9.47V22.3a9.47 9.47 0 0 1 9.47-9.47h19.4a9.47 9.47 0 0 1 9.47 9.47Zm0 0" fill="Green" class="fill-4fbe9f"></path><path d="M32 19.59A12.41 12.41 0 1 0 44.41 32 12.41 12.41 0 0 0 32 19.59Zm0 20A7.59 7.59 0 1 1 39.59 32 7.59 7.59 0 0 1 32 39.59Zm0 0" fill="black" class="fill-ebeef2"></path><path d="M46.2 19.68a1.76 1.76 0 1 1-1.76-1.76 1.76 1.76 0 0 1 1.76 1.76Zm0 0" fill="black" class="fill-dcdfe2"></path></svg>
+        			</a>
+				<a href="https://www.tiktok.com/@sikwens_"class="social-media-icons-container" alt="TIktok">
+    					<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" ><path d="M168,106a95.9,95.9,0,0,0,56,18V84a56,56,0,0,1-56-56H128V156a28,28,0,1,1-40-25.3V89.1A68,68,0,1,0,168,156Z" fill="green" stroke="green" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" /></svg>
+    				</a>
+      			</div>
+		</div>
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<!-- GSAP ScrollToPlugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+<!-- GSAP MotionPathPlugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/MotionPathPlugin.min.js"></script>
+<!-- GSAP EasePack (optional but useful for advanced easing) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EasePack.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+<script src="sikwens_script.js"></script>
+</body>
+</html>
